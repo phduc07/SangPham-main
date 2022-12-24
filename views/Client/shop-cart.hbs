@@ -109,11 +109,6 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment</button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <form action="/paypal" method="POST">
-                                <form class="paypal" action="http://localhost:32066/paypal" method="post">
-                                </label>
-                                       <button class="btn btn-default" id="btnPopup" type="submit">Paypal</button>
-                                </form>
                                 <form action="/pay/create_payment_url" method="POST">
                                 <label for="amount" hidden>
                                 <input class="form-control" id="amount" name="amount" placeholder="Số tiền" value={{total}} />
